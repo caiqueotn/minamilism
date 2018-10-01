@@ -1,0 +1,211 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.cabecalhoPrincipal-titulo a, .cabecalhoPrincipal-nav a {
+  text-decoration: none;
+  color: #FFF; }
+
+.rodapePrincipal-titulo a, .rodapePrincipal-nav a {
+  text-decoration: none;
+  color: #FFF; }
+
+body {
+  background-color: white;
+  font-family: 'Open Sans',Arial,sans-serif; }
+
+.container {
+  width: 88%;
+  margin: 0 auto; }
+
+.moldeConteudo {
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 100%;
+  height: default;
+  background-color: #F2F5F7; }
+
+.cabecalhoPrincipal {
+  background-color: #77707A;
+  padding: 10px 0; }
+
+.cabecalhoPrincipal-titulo {
+  font-size: 1.8em;
+  text-transform: uppercase; }
+
+.cabecalhoPrincipal-nav-link {
+  padding: 10px; }
+
+.cabecalhoPrincipal-titulo a, .cabecalhoPrincipal-nav a {
+  font-weight: 400; }
+
+.cabecalhoPrincipal-nav a {
+  font-weight: 400;
+  font-size: 1em;
+  text-transform: lowercase; }
+
+.cabecalhoPrincipal .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.cabecalhoPrincipal-nav {
+  display: flex;
+  justify-content: space-between; }
+
+@media (max-width: 610px) {
+  .cabecalhoPrincipal .container {
+    flex-direction: column;
+    align-items: initial;
+    text-align: center; }
+
+  .cabecalhoPrincipal-nav {
+    flex-direction: column; }
+
+  .cabecalhoPrincipal-nav a {
+    text-transform: none; } }
+.conteudoPrincipal {
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.conteudoPrincipal .subtitulo {
+  font-size: 1.8em;
+  line-height: 38px;
+  font-weight: 700; }
+
+.conteudoPrincipal .destaque-smile {
+  color: #B6BEC7; }
+
+.conteudoPrincipal .paragrafo {
+  font-size: 1.8em;
+  line-height: 38px;
+  font-weight: 700; }
+
+.conteudoPrincipal .paragrafo .destaque {
+  color: #B6BEC7; }
+
+.conteudoPrincipal .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.sobreMim {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.sobreMim .sobreMim-subtitulo {
+  color: #B6BEC7;
+  padding-bottom: 20px;
+  font-size: 1.8em;
+  line-height: 38px;
+  font-weight: 700 bold; }
+
+.sobreMim .paragrafo {
+  color: #6F7B8D;
+  padding-bottom: 20px;
+  font-size: 1.1em;
+  line-height: 38px;
+  font-weight: 700; }
+
+.sobreMim .paragrafo .destaque a {
+  text-decoration: none;
+  color: #B6BEC7; }
+
+.sobreMim .paragrafo .destaque a:hover {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.4s linear;
+  -o-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
+  -webkit-transition: color 0.4s linear; }
+
+.sobreMim .destaque-smile {
+  color: #B6BEC7; }
+
+.sobreMim figure img {
+  width: 350px;
+  margin-right: 30px; }
+
+.sobreMim .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.sobreMim-container {
+  display: flex;
+  align-items: center; }
+
+@media (max-width: 768px) {
+  .sobreMim figure img {
+    width: 100%;
+    margin-right: 0px; }
+
+  .sobreMim-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column; } }
+.meuContato {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 30px; }
+
+.meuContato .meuContato-subtitulo {
+  color: #B6BEC7;
+  padding-bottom: 20px;
+  font-size: 1.8em;
+  line-height: 38px;
+  font-weight: 700; }
+
+.meuContato .paragrafo {
+  color: #6F7B8D;
+  padding-bottom: 20px;
+  font-size: 1.1em;
+  line-height: 38px; }
+
+.meuContato .paragrafo .destaque:hover {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.4s linear;
+  -o-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
+  -webkit-transition: color 0.4s linear; }
+
+.meuContato .paragrafo .contato-redeSocial {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000; }
+
+.rodapePrincipal {
+  background-color: #77707A;
+  padding: 20px 0; }
+
+.rodapePrincipal-nav-link {
+  padding: 10px; }
+
+.rodapePrincipal-nav a {
+  font-weight: 400;
+  font-size: 1em;
+  text-transform: lowercase; }
+
+.rodapePrincipal .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end; }
+
+.rodapePrincipal-nav {
+  display: flex; }
+
+@media (max-width: 610px) {
+  .rodapePrincipal .container {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center; } }
+
+/*# sourceMappingURL=estilos.css.map */

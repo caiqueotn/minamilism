@@ -1,0 +1,33 @@
+.conteudoPrincipal {
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.conteudoPrincipal .subtitulo {
+    font-size: 1.8em;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.conteudoPrincipal .destaque-smile {
+    color: $cor-destaque-smile;
+}
+
+.conteudoPrincipal .paragrafo {
+    font-size: 1.8em;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.conteudoPrincipal .paragrafo .destaque{
+    color: $cor-destaque;
+}
+
+// Flexbox 
+
+.conteudoPrincipal .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

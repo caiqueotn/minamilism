@@ -1,0 +1,39 @@
+.rodapePrincipal {
+    background-color: $cor-fundo-header;
+    padding: 20px 0;
+}
+
+.rodapePrincipal-nav-link {
+    padding: 10px;  
+}
+
+.rodapePrincipal-nav a {
+    font-weight: 400;
+    font-size: 1em;
+    text-transform: lowercase;
+}
+
+.rodapePrincipal-titulo a, .rodapePrincipal-nav a{
+    @extend %esquema-decoracao-footer;
+}
+
+// Flexbox
+.rodapePrincipal .container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+.rodapePrincipal-nav {
+    display: flex;
+}
+
+// Medias
+@media(max-width: 610px){
+    .rodapePrincipal .container{
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+}

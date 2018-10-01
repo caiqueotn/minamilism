@@ -1,0 +1,54 @@
+.cabecalhoPrincipal {
+    background-color: $cor-fundo-header;
+    padding: 10px 0;
+}
+
+.cabecalhoPrincipal-titulo {
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.cabecalhoPrincipal-nav-link {
+    padding: 10px;  
+}
+
+.cabecalhoPrincipal-titulo a, .cabecalhoPrincipal-nav a {
+    font-weight: 400;
+    @extend %esquema-decoracao-header;
+}
+
+.cabecalhoPrincipal-nav a {
+    font-weight: 400;
+    font-size: 1em;
+    text-transform: lowercase;
+}
+
+// Flexbox 
+.cabecalhoPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+// Medias
+@media(max-width: 610px){
+    .cabecalhoPrincipal .container{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+    
+    .cabecalhoPrincipal-nav {
+        flex-direction: column;
+    }
+
+    .cabecalhoPrincipal-nav a {
+        text-transform: none;
+    }
+
+}

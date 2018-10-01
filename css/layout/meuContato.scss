@@ -1,0 +1,37 @@
+.meuContato {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.meuContato .meuContato-subtitulo {
+    color: $cor-contato-subtitulo;
+    padding-bottom: 20px;
+    font-size: 1.8em;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.meuContato .paragrafo  {
+    color: $cor-contato-fonte;
+    
+    padding-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 38px;
+}
+
+.meuContato .paragrafo .destaque:hover  {
+    color: $cor-sobremim-fonte-hover;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.4s linear;
+    -o-transition: color 0.4s linear;
+	-moz-transition: color 0.4s linear;
+  	-webkit-transition: color 0.4s linear;
+}
+
+.meuContato .paragrafo .contato-redeSocial {
+    font-weight: bold;
+    text-decoration: none;
+    color: $cor-redesocial-fonte;
+}
